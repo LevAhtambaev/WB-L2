@@ -1,0 +1,28 @@
+ford 12
+toyota 55
+chevrolet 33
+
+65 -65
+-33 33
+99 -99
+nissan 9
+21
+subaru 7
+chevrolet 124
+chevrolet 124
+chevrolet 124
+chevrolet 124
+mercedes 8
+ford 5
+nissan 9
+nissan 9
+nissan 9
+nissan 9
+nissan 9
+77
+honda 15
+toyota
+-21
+chevrolet 124
+chevrolet 14
+14 toyota

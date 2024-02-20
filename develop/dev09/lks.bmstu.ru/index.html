@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Личный кабинет обучающегося</title>
+
+    <script src="https://lks.bmstu.ru/assets/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://lks.bmstu.ru/assets/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://lks.bmstu.ru/assets/popper-1.16.0.min.js"></script>
+    
+    <link href="https://lks.bmstu.ru/assets/eu-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://lks.bmstu.ru/assets/eu-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link href="/static/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="/static/css/highlight.css" rel="stylesheet">
+    <link href="/static/css/styles.css" rel="stylesheet">
+
+    <link href="/static/css/bootstrap-switch.min.css" rel="stylesheet">
+    <script src="/static/js/bootstrap-switch.min.js"></script>
+
+</head>
+
+<body>
+<script src="https://lks.bmstu.ru/assets/portal/1.0/color-portal3hat.js?menu&#x3D;https://lks.bmstu.ru/menu.json&amp;login&#x3D;https://lks.bmstu.ru/portal3/&amp;index&#x3D;https://lks.bmstu.ru/"></script>
+
+<div class="container-md">
+
+    <br/>
+</div>
+
+<div class="container-md">
+    <script>Portal3.setTitle(`Личный кабинет обучающегося`)</script>
+    <div class="row">
+        <div class="col-md-8">
+            
+            <h3 class="mt-2">Личный кабинет обучающегося</h3>
+            <h4 style="margin-top:1em"><a href="/schedule/list"><span class="fa fa-calendar"></span> Расписание</a> по группам</h4>
+    
+            <h4 style="margin-top:1em">Приложение "Мой&#160;МГТУ"</h4>
+            <div>
+                <a href="https://play.google.com/store/apps/details?id=com.eu.lks_app">
+                    <img style="max-height: 2.5rem;"  src="/static/images/googleplay.png" alt="Ссылка для скачивания моб.приложения">
+                </a>
+                <a href="https://apps.apple.com/ru/app/%D0%BC%D0%BE%D0%B9-%D0%BC%D0%B3%D1%82%D1%83/id1641800679">     
+                    <img style="max-height: 2.5rem;" src="/static/images/appstore.png" alt="Ссылка для скачивания моб.приложения">
+                </a>
+                <a href="https://appgallery.huawei.com/#/app/C108149023">     
+                    <img style="max-height: 2.5rem;" src="/static/images/huawei_app gallery.png" alt="Ссылка для скачивания моб.приложения">
+                </a>
+            </div>
+    
+            <div style="margin-top:1em">
+                <p>
+                    В подсистеме «Кабинет обучающегося» размещены сведения о текущей успеваемости, о результатах сдачи зачетов и экзаменов, о переводе с курса на курс, о назначении на стипендию, уходе в академический отпуск и т. д. Подсистема дает возможность доступа к этим сведениям через Интернет и предназначена для оперативного информирования студентов и их родителей. 
+                    Доступ к «Личному кабинету» осуществляется с помощью логина и пароля единой учетной записи обучающегося (логин и пароль почты и Wi-Fi).
+                    Пользователи, не имеющие такой учетной записи, могут оформить ее <a class="alert-link" href="https://wiki.bmstu.ru/support/index.php/Регистрация_пользователей_сети">по инструкции</a>.
+                </p>
+            </div>
+            <p>
+                С вопросами и предложениями по работе личного кабинета можно обращаться по адресу <a href="mailto:eu@bmstu.ru">eu@bmstu.ru</a>
+            </p>
+        </div>
+    </div>
+    
+</div>
+
+<div class="container">
+
+    <footer>
+        <hr>
+            <div class="col-lg-12">
+                <p>Разработано в НОЦ "Электронный университет"</p>
+                <p>
+                    Служба поддержки: <br />
+                    тел.: 8 499 263-62-27 <br />
+                    email: <a href="mailto:eu@bmstu.ru">eu@bmstu.ru</a>
+                </p>
+            </div>
+    </footer>
+
+</div>
+
+<script>
+    if (window.innerWidth <= 768) {
+        const hat = document.getElementById('portal3hat');
+        hat.style.position = 'absolute';
+    }
+    $('#navigation').find(".nav-link").each(function(){
+            if(this.href == $(location).attr("href")){
+            $(this).addClass("active");
+        }
+    });
+</script>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-89632206-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+</body>
+
+</html>
